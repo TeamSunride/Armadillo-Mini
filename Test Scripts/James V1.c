@@ -105,7 +105,9 @@ void loop()
                             client.println(".noDanger{color:white;background-color:grey}.green{color:white;background-color:green}.statusIndicator{padding:4rem;font-size:500%}");
                             client.println("button{padding:1rem;border-radius:30px;border:none;font-size:150%}</style>");
                             // Web Page Heading
-                            client.println("<body><h1>Armadillo Mini</h1><h4>v1.0</h4>");
+                            client.println("<body><h1>Armadillo Mini</h1><h4>v1.0</h4><h4>");
+                            client.println(ssid);
+                            client.println("</h4>");
 
                             if (output26State == true)
                                 client.println("<main><hr><div id=\"status\" class=\"danger statusIndicator\">ARMED</div><hr><button id=\"toggle\" class=\"green\" onclick=\"disarm()\">CLICK TO DISARM</button></main>");
