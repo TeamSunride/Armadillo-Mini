@@ -5,7 +5,7 @@
 using namespace std;
 
 // Replace with your network credentials
-const char *ssid = "Wh";
+const char *ssid = "Armadillo-Mini SN1";
 const char *password = "123456789";
 
 // Set web server port number to 80
