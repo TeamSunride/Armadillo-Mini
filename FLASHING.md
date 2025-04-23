@@ -6,6 +6,7 @@
 - **USB-to-Serial Cable** (FTDI or CP2102 recommended – only **GND**, **TX**, and **RX** are required)
 → Example: [Amazon UART Cable](https://www.amazon.co.uk/uart-cable/s?k=uart+cable)
 - **Armadillo Mini Board**
+- **Power Source** (usually a LIPO battery) to power the Armadillo Mini Board
 - **Jumper Wires** to connect pins manually during the flashing process
 
 ## 🛠️ Step 1: Set Up the Arduino IDE for ESP32
